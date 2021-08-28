@@ -20,6 +20,10 @@
     "@types/jest": "^26.0.24",
     "jest": "^26.6.3",
     "jest-cli": "^26.6.3",
+    "monaco-editor": "^0.27.0",
     "puppeteer": "^10.0.0"
+  },
+  "dependencies": {
+    "@seanwong24/s-monaco-editor": "^0.2.0"
   }
 }

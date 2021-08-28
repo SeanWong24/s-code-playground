@@ -8,6 +8,12 @@ export const config: Config = {
   taskQueue: 'async',
   outputTargets: [{
     type: 'www',
+    copy: [
+      {
+        src: '../node_modules/monaco-editor/min/vs/',
+        dest: 'build/monaco-editor/vs/'
+      }
+    ],
     serviceWorker: null
   }],
 };
